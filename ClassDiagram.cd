@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="board&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAaASAAAAAAAAAAAIEAAIAAAAAg=</HashCode>
+      <FileName>board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bBoard&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAYASAAAAAAAAAAAAEACAAAAAAg=</HashCode>
+      <FileName>board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="iBoard&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAYASAAAAAAAAAAAAEAAAAAAAAg=</HashCode>
+      <FileName>board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="eBoard&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAYASAAAAAAAAAAAAEAAAAAAQAg=</HashCode>
+      <FileName>board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="gBoard&lt;T&gt;" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAYASAAAAAAAAAAAAEAAAAAAAAg=</HashCode>
+      <FileName>board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MSGame">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="MSGame::gameType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MSGame::gameStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>game.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIABAEAAgAAAEAAIAAAEIAAAAAAAAAAQAAAgAAQA=</HashCode>
+      <FileName>game.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vBoard" />
+      <Field Name="hBoard" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MSGameStat" Collapsed="true">
+    <Position X="14.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIIARAqBBQAAAACAAABACAAAAAAQQAAAAgIAAAAABA=</HashCode>
+      <FileName>MSGameStat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimulateMSGame">
+    <Position X="13.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAEAAAIBAAAAAAAAAAAACAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>SimulateMSGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimingWheel">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAIAAAIEAAAAABAAAAABAQAACAAAAAAA=</HashCode>
+      <FileName>timingWheel.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="slot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Partition&lt;T&gt;">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAgAAAAAAAAAAAAIAAAAAAQAAAAAAIAAAAAAA=</HashCode>
+      <FileName>partition.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="head" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="node&lt;T&gt;">
+    <Position X="3.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAACAAIABAA=</HashCode>
+      <FileName>node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimMSGame">
+    <Position X="11.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQgACAAAIAAAAAAACAAAAIAIAREAEAAQA=</HashCode>
+      <FileName>SimMSGame.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="game" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GenTimingWheel">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAmABAATAgAAQAAAACAAAgAAACgAAAAAAAQACAAA=</HashCode>
+      <FileName>GenTimingWheel.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="tw" />
+      <Field Name="stat" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
